@@ -13,7 +13,6 @@ Last updated: 2025-01-26
 <details>
 <summary><b>Table of Content </b> (Click to expand)</summary>
 
-- [Content](#content)
 - [Overview](#overview)
 - [Demo](#demo)
    - [Set Up a Synapse Workspace](#set-up-a-synapse-workspace)

@@ -1,4 +1,4 @@
-# Dedicated SQL Pool: Store Procedure Dynamically Remove Space
+# Dedicated SQL Pool: <br/> Store Procedure Dynamically Remove Space - Overview
 
 Costa Rica
 

@@ -10,23 +10,17 @@ Last updated: 2025-01-26
 
 ----------
 
-## Content
-
 <details>
 <summary><b>Table of Content </b> (Click to expand)</summary>
 
-- [Content](#content)
-- [Demo](#demo)
-   - [Set Up a Synapse Workspace](#set-up-a-synapse-workspace)
-   - [Create a Dedicated SQL Pool](#create-a-dedicated-sql-pool)
-   - [Create Tables with Spaces in Names and Columns](#create-tables-with-spaces-in-names-and-columns)
-   - [Create Views with Modified Tables/Column Names](#create-views-with-modified-tablescolumn-names)
+- [Set Up a Synapse Workspace](#set-up-a-synapse-workspace)
+- [Create a Dedicated SQL Pool](#create-a-dedicated-sql-pool)
+- [Create Tables with Spaces in Names and Columns](#create-tables-with-spaces-in-names-and-columns)
+- [Create Views with Modified Tables/Column Names](#create-views-with-modified-tablescolumn-names)
 
 </details>
 
-## Demo
-
-### Set Up a Synapse Workspace
+## Set Up a Synapse Workspace
 
 1. **Sign in to the Azure Portal**: Go to the Azure Portal and sign in with your Azure account.
 2. **Navigate to Your Synapse Workspace**: In the Azure Portal, search for your Synapse workspace or create a new one if you don't have one.
@@ -37,7 +31,7 @@ Last updated: 2025-01-26
 
      <img width="550" alt="image" src="https://github.com/user-attachments/assets/7d03bfa8-e1e3-4706-970f-a89c7b8cd904" />
 
-### Create a Dedicated SQL Pool
+## Create a Dedicated SQL Pool
 
 1. **Launch Synapse Studio**: From the Synapse workspace overview, click on the `Open Synapse Studio` button.
 
@@ -60,7 +54,7 @@ Last updated: 2025-01-26
 
         <img width="550" alt="image" src="https://github.com/user-attachments/assets/b8b2c94b-76e6-4ced-8812-c386c6a55f32" />
 
-### Create Tables with Spaces in Names and Columns
+## Create Tables with Spaces in Names and Columns
 
 1. **Open the SQL Script Editor**:
    - In Synapse Studio, go to the `Develop hub` by clicking on the `Develop` icon in the left navigation pane.
@@ -123,7 +117,7 @@ Last updated: 2025-01-26
 
   <img width="550" alt="image" src="https://github.com/user-attachments/assets/3e6fc8a1-ad34-4a0b-8940-ae27b303190d">
 
-  ### Create Views with Modified Tables/Column Names
+  ## Create Views with Modified Tables/Column Names
 
 1. **Create a Stored Procedure to Remove Spaces from Column Names**: Use the following script to create a stored procedure that removes spaces from column names and creates views. Click [here to see the .sql file](https://github.com/MicrosoftCloudEssentials-LearningHub/Demos-ScenariosHub/blob/main/0_Azure/2_AzureAnalytics/1_SynapseAnalytics/demos/2_synapse_views_dynamically_remove_space/1_dedicatedSQLPoolStoreProc/src/store-procedure-clean-up.sql).
 
